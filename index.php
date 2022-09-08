@@ -2,7 +2,7 @@
  $paragraph = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum perferendis a quis quisquam dolor vero, eius,
   ipsa quaerat nulla iusto tenetur blanditiis nihil distinctio pariatur sunt hic consectetur aliquid aspernatur!';
 
- $badword = 'a';
+ $badword = $_GET['badword'];
 
  $censured_paragraph = str_replace($badword, '***', $paragraph);
  ?>
